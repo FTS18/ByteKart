@@ -1,0 +1,63 @@
+[{
+        "id": 1,
+        "name": "Wheat",
+        "image": "wheat.webp",
+        "description": "gay",
+        "price": "25"
+    },
+    {
+        "id": 2,
+        "name": "Rice",
+        "image": "rice.webp",
+        "description": " ",
+        "price": "30"
+    },
+    {
+        "id": 3,
+        "name": "Flour",
+        "image": "bread.webp",
+        "description": " ",
+        "price": "35"
+    },
+    {
+        "id": 4,
+        "name": "Pulses",
+        "image": "pulses1.webp",
+        "description": " ",
+        "price": "40"
+    },
+    {
+        "id": 5,
+        "name": "Sugar",
+        "image": "sugar.webp",
+        "description": " ",
+        "price": "37"
+    },
+    {
+        "id": 6,
+        "name": "Salt",
+        "image": "salt.webp",
+        "description": " ",
+        "price": "50"
+    },
+    {
+        "id": 7,
+        "name": "Maggie",
+        "image": "noodles.webp",
+        "description": " ",
+        "price": "14"
+    },
+    {
+        "id": 8,
+        "name": "Noodles",
+        "image": "maggie.webp",
+        "description": " ",
+        "price": "50"
+    }, {
+        "id": 9,
+        "name": "ef",
+        "image": "maggie1.webp",
+        "description": " ",
+        "price": "40"
+    }
+]

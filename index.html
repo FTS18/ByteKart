@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ByteKart | Shop</title>
+    <link rel="stylesheet" href="app/styles/style.css">
+    <link rel="stylesheet" href="app/styles/theme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="c-nav"></div>
+    <section id="banner">
+        <div class="slider">
+            <img src="app/res/images/p1.svg" alt="">
+        </div>
+        <div class="mobile search-box">
+            <input class="input-m input" onkeyup="search()" type="text" placeholder="Search..." required autofocus>
+            <button type="submit" onclick="search()" class="go-icon"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="currency-select">
+            <!--<label for="currencySelector">Select Currency:</label>-->
+            <select id="currencySelector">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+            </select>
+        </div>
+    </section>
+    </div>
+    <section class="content">
+        <div class="grid-container" id="productGrid"></div>
+    </section>
+    <section class="recommended"></section>
+</body>
+<script src="app/scripts/app.js"></script>
+
+</html>
