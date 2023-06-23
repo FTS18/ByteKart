@@ -53,11 +53,5 @@
         "image": "maggie.webp",
         "description": " ",
         "price": "50"
-    }, {
-        "id": 9,
-        "name": "ef",
-        "image": "maggie1.webp",
-        "description": " ",
-        "price": "40"
     }
 ]
