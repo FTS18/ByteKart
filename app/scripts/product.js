@@ -23,7 +23,7 @@ fetch('../app/scripts/products.json')
             const image = document.createElement('img');
             image.src = baseImageUrl + product.image;
             image.loading = 'lazy';
-            image.srcset = `${baseImageUrl}${product.image} 1x, ${baseImageUrl}${product.image.replace('.jpg', '_2x.jpg')} 2x`;
+            image.srcset = `${baseImageUrl}${product.image} 1x, ${baseImageUrl}${product.image.replace('.jpg', '.jpg')} 2x`;
 
             imageContainer.appendChild(image);
 
