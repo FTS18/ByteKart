@@ -1,57 +1,85 @@
 [{
         "id": 1,
-        "name": "Wheat",
-        "image": "wheat.webp",
-        "description": "gay",
-        "price": "25"
+        "name": "Choco Cart",
+        "image": "photo_6156542530703964213_y.jpg",
+        "description": " ",
+        "price": "150"
     },
     {
         "id": 2,
-        "name": "Rice",
-        "image": "rice.webp",
+        "name": "Hanging plants",
+        "image": "photo_6156542530703964206_y.jpg",
         "description": " ",
-        "price": "30"
+        "price": "250"
     },
     {
         "id": 3,
-        "name": "Flour",
-        "image": "bread.webp",
+        "name": "Lipon Bottle",
+        "image": "photo_6161087456506656549_y.jpg",
         "description": " ",
-        "price": "35"
+        "price": "150"
     },
     {
         "id": 4,
-        "name": "Pulses",
-        "image": "pulses1.webp",
+        "name": "Paper Doll",
+        "image": "photo_6156542530703964208_y.jpg",
         "description": " ",
-        "price": "40"
+        "price": "90"
     },
     {
         "id": 5,
-        "name": "Sugar",
-        "image": "sugar.webp",
+        "name": "Coconut Purse",
+        "image": "photo_6156542530703964209_y.jpg",
         "description": " ",
-        "price": "37"
+        "price": "200"
     },
     {
         "id": 6,
-        "name": "Salt",
-        "image": "salt.webp",
+        "name": "Coconut Tabla",
+        "image": "photo_6156542530703964210_y.jpg",
         "description": " ",
-        "price": "50"
+        "price": "200"
     },
     {
         "id": 7,
-        "name": "Maggie",
-        "image": "noodles.webp",
+        "name": "Leafed Bottle",
+        "image": "photo_6156542530703964211_y.jpg",
         "description": " ",
-        "price": "14"
+        "price": "150"
     },
     {
         "id": 8,
-        "name": "Noodles",
-        "image": "maggie.webp",
+        "name": "Masks",
+        "image": "photo_6156542530703964212_y.jpg",
         "description": " ",
-        "price": "50"
+        "price": "300"
+    },
+    {
+        "id": 9,
+        "name": "Globe Lamp",
+        "image": "photo_6156542530703964214_y.jpg",
+        "description": " ",
+        "price": "200"
+    },
+    {
+        "id": 10,
+        "name": "Photo Frame",
+        "image": "photo_6156542530703964215_y.jpg",
+        "description": " ",
+        "price": "150"
+    },
+    {
+        "id": 11,
+        "name": "Chopping Board",
+        "image": "photo_6156542530703964218_y.jpg",
+        "description": " ",
+        "price": "100"
+    },
+    {
+        "id": 12,
+        "name": "Wooden Lamp",
+        "image": "photo_6161087456506656546_y.jpg",
+        "description": " ",
+        "price": "150"
     }
 ]

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>ByteKart | Shop</title>
+    <title>Reartify Decor | Home</title>
     <link rel="stylesheet" href="app/styles/style.css">
     <link rel="stylesheet" href="app/styles/theme.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -17,13 +17,17 @@
     <div class="c-nav"></div>
     <section id="banner">
         <div class="slider">
-            <img src="app/res/images/p1.svg" alt="">
+            <img src="app/res/images/bg9.webp" alt="">
         </div>
-        <div class="mobile search-box">
+        <div class=" search-box">
             <input class="input-m input" onkeyup="search()" type="text" placeholder="Search..." required autofocus>
             <button type="submit" onclick="search()" class="go-icon"><i class="fas fa-search"></i></button>
         </div>
+    </section>
+    </div>
+    <section class="content">
         <div class="currency-select">
+            <div class="title">Products</div>
             <!--<label for="currencySelector">Select Currency:</label>-->
             <select id="currencySelector">
                 <option value="INR">INR</option>
@@ -32,12 +36,8 @@
                 <option value="GBP">GBP</option>
             </select>
         </div>
-    </section>
-    </div>
-    <section class="content">
         <div class="grid-container" id="productGrid"></div>
     </section>
-    <section class="recommended"></section>
 </body>
 <script src="app/scripts/app.js"></script>
 

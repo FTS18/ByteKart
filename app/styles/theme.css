@@ -1,5 +1,5 @@
 :root {
-    --b-primary: #f1dd24;
+    --b-primary: #15ff00;
     --b-secondary: #000;
     --f-primary: #101010;
     --f-secondary: #090909;
@@ -20,7 +20,7 @@
 }
 
 body {
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow-x: hidden;
     background: var(--b-secondary);
@@ -53,7 +53,7 @@ body::-webkit-scrollbar-thumb {
     left: 0;
     width: 100%;
     height: 75px;
-    background: var(--f-primary);
+    background: #111;
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@ nav {
 
 .nav-content {
     top: 0%;
-    left: 45%;
+    left: 65%;
     position: relative;
     display: flex;
     align-items: center;
@@ -167,17 +167,20 @@ nav {
 }
 
 .search-box {
-    position: relative;
-    left: 30px;
-    height: 80%;
-    width: auto;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    height: 70px;
+    width: 60%;
+    z-index: 800;
+    transform: translate(-50%,-50%);
     transition: all 0.3s ease;
     .input {
         position: relative;
         top: 50%;
         left: 0;
-        width: 70%;
-        height: 40px;
+        width: 80%;
+        height: 100%;
         border: none;
         outline: none;
         font-size: 17px;
@@ -185,11 +188,7 @@ nav {
         font-family: 'Source Code Pro', monospace;
         background: #222;
         padding: 0 100px 0 25px;
-        border-radius: 50px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
+        border-radius: 8px;
     }
     .input::placeholder {
         color: #f2f2f2;
@@ -198,8 +197,8 @@ nav {
         position: relative;
         left: -27px;
         top: 50%;
-        width: 15%;
-        height: 40px;
+        width: 10%;
+        height: 100%;
         background: var(--b-primary);
         border-top-right-radius: 50px;
         border-bottom-right-radius: 50px;
@@ -210,7 +209,6 @@ nav {
         cursor: pointer;
     }
 }
-
 input[type="checkbox"] {
     display: none;
 }
@@ -314,7 +312,7 @@ input[type="checkbox"] {
 }
 
 #banner {
-    position: relative;
+    position: fixed;
     top: 0px;
     left: 0;
     width: 100%;
@@ -322,6 +320,7 @@ input[type="checkbox"] {
     transition: margin-left .4s;
     color: white;
     z-index: 100;
+    z-index: 1;
     -webkit-transition: margin-left .4s;
     -moz-transition: margin-left .4s;
     -ms-transition: margin-left .4s;
@@ -333,7 +332,7 @@ input[type="checkbox"] {
     position: relative;
     top: 0;
     left: 0;
-    height: 18rem;
+    height: 33rem;
     width: 100%;
     overflow: hidden;
 }
@@ -349,17 +348,30 @@ input[type="checkbox"] {
     background-position: top center;
 }
 
+.title{
+    z-index: 20000;
+    width: auto;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
 .currency-select {
     position: relative;
-    top: 93px;
-    left: 4.8%;
+    top: 0;
+    left: 0;
     z-index: 20000;
-    width: 90.2%;
+    width: 100%;
     height: 50px;
+    margin-bottom: 40px;display: flex;
 }
 
 #currencySelector {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 100px;
     height: 100%;
     outline: none;
     border: none;
@@ -375,10 +387,12 @@ input[type="checkbox"] {
 
 .content {
     position: relative;
-    top: 9rem;
-    left: 5%;
-    width: 62.5%;
+    top: 33rem;
+    left: 0%;
+    padding: 5% 10%;
+    width:100%;
     height: auto;
+    z-index: 700;
     background: var(--f-secondary);
     float: left;
 }
@@ -644,8 +658,8 @@ input[type="checkbox"] {
         top: 20rem;
         left: 50%;
         height: 100px;
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
         margin: 0;
         display: block;
         transform: translateX(-50%);
@@ -674,10 +688,10 @@ input[type="checkbox"] {
             width: 65px;
             top: -60%;
             height: 60%;
-            left: 80%;
+            left:87%;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 0px;
-            background: #e9c62a;
+            background: #15ff00;
             transform: translateX(-10%);
             -webkit-transform: translateX(-10%);
             -moz-transform: translateX(-10%);
@@ -686,9 +700,7 @@ input[type="checkbox"] {
         }
     }
     #currencySelector {
-        border-radius: 0px;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-radius: 3px;
     }
     .grid-container {
         display: grid;
@@ -720,7 +732,7 @@ input[type="checkbox"] {
 @media screen and (max-width: 700px) {
     .recommended,
     .content {
-        width: 90%;
+        width: 100%;
         margin-bottom: 5%;
     }
 }
