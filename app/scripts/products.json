@@ -1,9 +1,16 @@
 [{
         "id": 1,
+<<<<<<< HEAD
         "name": "Choco Cart",
         "image": "photo_6156542530703964213_y.jpg",
         "description": " ",
         "price": "150"
+=======
+        "name": "Wheat",
+        "image": "wheat.webp",
+        "description": " ",
+        "price": "25"
+>>>>>>> 16b4650306523f5f4a7ab01072d5b3ec1ac03db7
     },
     {
         "id": 2,
