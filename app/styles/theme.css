@@ -504,15 +504,13 @@ input[type="checkbox"] {
         font-size: 1.5rem;
         color: var(--b-primary);
         width: 100%;
-        left: 0px;
         position: relative;
-        margin-right: 9rem;
-        margin-left: -5rem;
     }
     .nav-content {
         position: absolute;
         top: -0.35rem;
         left: 30rem;
+        float: right;
     }
     .search-box {
         position: absolute;
@@ -621,6 +619,8 @@ input[type="checkbox"] {
     }
     .desktop-link {
         display: none;
+    }.logo-title{
+        left: -1rem;
     }
     /* dropdown responsive code start */
     .nav-content .links ul,
@@ -672,8 +672,8 @@ input[type="checkbox"] {
         .input {
             position: relative;
             top: 0%;
-            left: 4.8%;
-            width: 90.2%;
+            left: 5%;
+            width: 90%;
             transform: translateX(0%);
             height: 60%;
             padding: 8px;
@@ -688,7 +688,7 @@ input[type="checkbox"] {
             width: 65px;
             top: -60%;
             height: 60%;
-            left:87%;
+            left:77%;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 0px;
             background: #15ff00;
@@ -718,6 +718,8 @@ input[type="checkbox"] {
 @media screen and (max-width: 500px) {
     .nav-content {
         max-width: 100%;
+        height: 105%;
+        overflow: hidden;
     }
     .nav-wrapper .search-box .go-icon {
         width: 30px;
