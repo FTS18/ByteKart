@@ -55,7 +55,7 @@ fetch('app/scripts/products.json')
             const image = document.createElement('img');
             image.src = baseImageUrl + product.image;
             image.loading = 'lazy';
-            image.srcset = `${baseImageUrl}${product.image} 1x, ${baseImageUrl}${product.image.replace('.jpg', '_2x.jpg')} 2x`;
+            image.srcset = `${baseImageUrl}${product.image} 1x, ${baseImageUrl}${product.image.replace('.jpg', '_2x.jpg')} `;
 
             imageContainer.appendChild(image);
             const favoriteButton = document.createElement('i');
